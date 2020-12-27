@@ -18,10 +18,11 @@ import { OrderListViewerModule } from '../../order-list-viewer/order-list-viewer
 import { GridModule } from '../../grid/grid.module';
 import { RedirectControlModule } from '../../redirect-control/redirect-control.module';
 import { LinkedProductsModule } from '../../linked-products/linked-products.module';
+import { SetBreadcrumpsComponent } from './set-breadcrumps/set-breadcrumps.component';
 
 
 @NgModule({
-  declarations: [ProductComponent, AttributesEditorComponent, ReviewsViewerComponent, OrderListViewerModalComponent],
+  declarations: [ProductComponent, AttributesEditorComponent, ReviewsViewerComponent, OrderListViewerModalComponent, SetBreadcrumpsComponent],
   imports: [
     CommonModule,
     ProductRoutingModule,
